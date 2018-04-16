@@ -1,0 +1,20 @@
+{
+  "name": "mongoose-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "mongodb": "^3.0.6",
+    "mongoose": "^5.0.14",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.3"
+  }
+}
