@@ -107,7 +107,8 @@ function closeServer() {
 }
 
 if(require.main === module) {
+    console.log('Database Url is' + DATABASE_URL);
     runServer(DATABASE_URL).catch(err => console.error(err));
 }
 
-module.exports{runServer, app, closeServer};
+module.exports = {runServer, app, closeServer};
